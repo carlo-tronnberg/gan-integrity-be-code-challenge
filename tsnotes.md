@@ -31,3 +31,6 @@
 [Thu May 16 04:44:04 CEST 2024]:  \n### Pomodoro 🍅 8\n
 [Thu May 16 04:44:04 CEST 2024]:  - 🚧 UAT1.1
 [Thu May 16 04:49:08 CEST 2024]:    - UAT1.1 -  🟢 - configured PM2 to orchestrate Docker containers
+[Thu May 16 04:49:21 CEST 2024]:  \n### Pomodoro 🍅 9\n
+[Thu May 16 04:49:21 CEST 2024]:  - 🚧 UAT1.1
+[Thu May 16 04:52:05 CEST 2024]:    - UAT1.1 -  🟢 - added RabbitMQ consumer
