@@ -21,3 +21,6 @@
 [Thu May 16 04:13:12 CEST 2024]:  - 🚧 UAT1.1
 [Thu May 16 04:14:26 CEST 2024]:    - UAT1.1 -  ⚙ - configure API
 [Thu May 16 04:19:51 CEST 2024]:    - UAT1.1 -  🔴 - Setup failing cities controller test
+[Thu May 16 04:21:11 CEST 2024]:  \n### Pomodoro 🍅 7\n
+[Thu May 16 04:21:11 CEST 2024]:  - 🚧 UAT1.1
+[Thu May 16 04:21:37 CEST 2024]:    - UAT1.1 -  🟢 - cities controller
