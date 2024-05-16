@@ -72,3 +72,4 @@
 - 🚧 UAT1.1
   - UAT1.1 -  🟢 - added RabbitMQ consumer
   - UAT1.1 -  📝 - update README files
+  - UAT1.1 -  - fixed typo
