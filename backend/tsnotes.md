@@ -9,3 +9,4 @@
 [Thu May 16 09:38:00 CEST 2024]:    - UAT1.1 -  🔴 - added result controller
 [Thu May 16 15:37:35 CEST 2024]:    - UAT1.1 -  📝 - updated README.md, _BACKLOG and _TECHDEPT
 [Thu May 16 23:04:25 CEST 2024]:    - UAT1.1 -  🔨 - cleaned up package.json
+[Thu May 16 23:10:39 CEST 2024]:    - UAT1.1 -  🔨 - added docker up and down scripts
