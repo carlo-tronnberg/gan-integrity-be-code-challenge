@@ -3,14 +3,14 @@
 const router = require('express').Router();
 
 const { query, validationResult } = require('express-validator');
-const { getDistanceFromLatLonInKm } = require('../src/utils/utils.js');
+const { getDistanceFromLatLonInKm } = require('../src/tools/distance.js');
 const JSONStream = require('JSONStream');
 
 const { authenticateToken } = require('../middlewares/check-auth.js');
 const { sendMessage } = require('../services/producer.js');
 
-const City = require('../src/operations/cities.js');
-const AreaResult = require('../src/operations/result.js');
+const City = require('../src/controllers/cities.js');
+const AreaResult = require('../src/controllers/result.js');
 
 const HTTP_OK = 200;
 const ACCEPTED = 202;

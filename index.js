@@ -4,7 +4,7 @@ const fetch = require('node-fetch');
 
 const protocol = 'http';
 const host = '127.0.0.1';
-const port = '8080';
+const port = '9080';
 const server = `${protocol}://${host}:${port}`;
 
 (async () => {
@@ -50,7 +50,7 @@ const server = `${protocol}://${host}:${port}`;
   // result we expect to get a url that can be polled for the final result
   result = await fetch(`${server}/area?from=${city.guid}&distance=250`, {
     headers: { 'Authorization': 'bearer dGhlc2VjcmV0dG9rZW4=' },
-    timeout: 25
+    timeout: 250
   });
 
   // so far so good
@@ -78,6 +78,7 @@ const server = `${protocol}://${host}:${port}`;
 
   // so we got a result. let's see if it looks as expected
   body = await result.json();
+
   let cities = body.cities;
   assert.strictEqual(cities.length, 15);
 

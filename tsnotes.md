@@ -35,3 +35,4 @@
 [Thu May 16 04:49:21 CEST 2024]:  - 🚧 UAT1.1
 [Thu May 16 04:52:05 CEST 2024]:    - UAT1.1 -  🟢 - added RabbitMQ consumer
 [Thu May 16 05:23:58 CEST 2024]:    - UAT1.1 -  📝 - update README files
+[Thu May 16 11:33:29 CEST 2024]:    - UAT1.1 -  - fixed typo

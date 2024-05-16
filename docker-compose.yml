@@ -32,7 +32,7 @@ services:
         container_name: backend
         restart: on-failure
         ports:
-          - "8080:3000"
+          - "9080:3000"
         volumes:
           - ./backend:/home/app
         depends_on:
