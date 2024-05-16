@@ -1,40 +1,18 @@
-const {
-  Given,
-  When,
-  Then,
-  Fusion,
-  // eslint-disable-next-line import/no-extraneous-dependencies
-} = require('jest-cucumber-fusion');
-
+const { Given, When, Then, Fusion } = require('jest-cucumber-fusion');
 const utils = require('../../src/tools/distance');
 
 let coord1;
 let coord2;
 let response;
 
-// Scenario: Getting the distance between two coordinates
-Given(
-  /^two GPS coordinates (.*), (.*) and (.*), (.*)$/,
-  (lat1, lon1, lat2, lon2) => {
-    coord1 = {
-      lat: lat1,
-      lon: lon1,
-    };
-    coord2 = {
-      lat: lat2,
-      lon: lon2,
-    };
-  },
-);
+Given(/^two GPS coordinates (.*), (.*) and (.*), (.*)$/, (lat1, lon1, lat2, lon2) => {
+  coord1 = { lat: lat1, lon: lon1 };
+  coord2 = { lat: lat2, lon: lon2 };
+});
 
 When('calling the getDistanceFromLatLonInKm function', async () => {
   try {
-    response = await utils.getDistanceFromLatLonInKm(
-      coord1.lat,
-      coord1.lon,
-      coord2.lat,
-      coord2.lon,
-    );
+    response = await utils.getDistanceFromLatLonInKm(coord1.lat, coord1.lon, coord2.lat, coord2.lon);
   } catch (err) {
     return err.message;
   }

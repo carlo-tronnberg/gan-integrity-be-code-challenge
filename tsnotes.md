@@ -16,3 +16,4 @@
 [Thu May 16 03:56:43 CEST 2024]:  \n### Pomodoro 🍅 5\n
 [Thu May 16 03:56:43 CEST 2024]:  - 🚧 UAT1.1
 [Thu May 16 04:01:36 CEST 2024]:    - UAT1.1 -  ⚙ - setup mongoDB in Docker
+[Thu May 16 04:12:06 CEST 2024]:    - UAT1.1 -  🟢 - set up mongoDB in docker
