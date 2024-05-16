@@ -39,3 +39,4 @@
 
 - 🚧 UAT1.1
   - UAT1.1 -  🟢 - created distance feature
+  - UAT1.1 -  🔨 - refactored distance test
