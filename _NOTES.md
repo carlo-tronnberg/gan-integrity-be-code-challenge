@@ -58,3 +58,4 @@
 - 🚧 UAT1.1
   - UAT1.1 -  🟢 - cities controller
   - UAT1.1 -  🔴 - added token authentication
+  - UAT1.1 -  🟢 - added RabbitMQ container to Docker
