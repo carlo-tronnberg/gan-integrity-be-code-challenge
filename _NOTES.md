@@ -52,3 +52,8 @@
 - 🚧 UAT1.1
   - UAT1.1 -  ⚙ - configure API
   - UAT1.1 -  🔴 - Setup failing cities controller test
+
+### Pomodoro 🍅 7
+
+- 🚧 UAT1.1
+  - UAT1.1 -  🟢 - cities controller
