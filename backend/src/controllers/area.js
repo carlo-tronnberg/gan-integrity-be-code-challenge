@@ -4,10 +4,6 @@ const City = require('./cities.js');
 const AreaResult = require('./result.js');
 const { getDistanceFromLatLonInKm } = require('../tools/distance.js');
 
-//not nice
-//need this for error handling
-//let requestId;
-
 /**
  * Calculates the cities near a given city within a specified distance.
  * @param {Object} message - An object containing the following properties:
@@ -21,8 +17,6 @@ const calculateNearCities = async (message) => {
     console.log(
       `Calculating near cities of ${message.from} within ${message.distance}`,
     );
-    //const requestId = message.requestId;
-    //preset the result
     // Insert or update the result document in the database with the initial values
     let { result, error } = await AreaResult.insertOrUpdateResult({
       requestId: message.requestId,
@@ -80,7 +74,6 @@ const calculateNearCities = async (message) => {
 
     return { result };
   } catch (error) {
-    //don't know if good idea  to store the error in the results object
     // Store the error in the results object
     await AreaResult.insertOrUpdateResult({
       requestId: message.requestId,

@@ -22,9 +22,7 @@ const startConsumer = async () => {
   ch.consume(
     'area_calculation',
     async (message) => {
-      const { result, error } = calculateNearCities(
-        JSON.parse(message.content),
-      );
+      const { error } = calculateNearCities(JSON.parse(message.content));
 
       if (error) ch.cancel(message);
 
