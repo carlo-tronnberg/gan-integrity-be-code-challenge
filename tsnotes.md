@@ -12,3 +12,4 @@
 [Thu May 16 03:47:22 CEST 2024]:  \n### Pomodoro 🍅 4\n
 [Thu May 16 03:47:22 CEST 2024]:  - 🚧 UAT1.1
 [Thu May 16 03:49:58 CEST 2024]:    - UAT1.1 -  🟢 - created distance feature
+[Thu May 16 03:56:32 CEST 2024]:    - UAT1.1 -  🔨 - refactored distance test
