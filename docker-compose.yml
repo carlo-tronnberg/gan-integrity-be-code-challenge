@@ -1,5 +1,14 @@
 services:
 
+    rabbitMQ:
+        image: rabbitmq:3.13.2-management-alpine
+        container_name: rabbitmq
+
+        ports:
+            - 5672:5672
+            - 15672:15672
+
+
     mongodb:
         image: mongo:4.0.28
         expose:
@@ -7,7 +16,7 @@ services:
         ports:
           - "27018:27017"
     
-    
+
     load-data:
         build:
           context: backend/db
@@ -27,4 +36,5 @@ services:
         volumes:
           - ./backend:/home/app
         depends_on:
+          - rabbitMQ
           - mongodb

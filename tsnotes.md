@@ -25,3 +25,4 @@
 [Thu May 16 04:21:11 CEST 2024]:  - 🚧 UAT1.1
 [Thu May 16 04:21:37 CEST 2024]:    - UAT1.1 -  🟢 - cities controller
 [Thu May 16 04:23:49 CEST 2024]:    - UAT1.1 -  🔴 - added token authentication
+[Thu May 16 04:27:54 CEST 2024]:    - UAT1.1 -  🟢 - added RabbitMQ container to Docker
