@@ -60,3 +60,4 @@
   - UAT1.1 -  🔴 - added token authentication
   - UAT1.1 -  🟢 - added RabbitMQ container to Docker
   - UAT1.1 -  🟢 - added RabbitMQ producer
+  - UAT1.1 -  🔨 - refactored RabbitMQ producer
