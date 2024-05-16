@@ -57,3 +57,4 @@
 
 - 🚧 UAT1.1
   - UAT1.1 -  🟢 - cities controller
+  - UAT1.1 -  🔴 - added token authentication
