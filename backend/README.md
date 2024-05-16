@@ -1,4 +1,6 @@
 # GAN Integrity backend code challenge
+[Metrics report](metrics.md) -
+[Complexity report](complexity-report.md)
 
 ---
 
@@ -39,3 +41,5 @@ can achieve the same with the command the script contains:
 ```sh
 npm test -- --watchAll --collect-coverage --verbose
 ```
+---
+[Challenge description](../README.md)
