@@ -61,3 +61,8 @@
   - UAT1.1 -  🟢 - added RabbitMQ container to Docker
   - UAT1.1 -  🟢 - added RabbitMQ producer
   - UAT1.1 -  🔨 - refactored RabbitMQ producer
+
+### Pomodoro 🍅 8
+
+- 🚧 UAT1.1
+  - UAT1.1 -  🟢 - configured PM2 to orchestrate Docker containers
