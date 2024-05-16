@@ -28,3 +28,4 @@
 - 🚧 UAT1.1
   - UAT1.1 -  🔴 - created test for distance tool
   - UAT1.1 -  🔴 - created test for distance tool
+  - UAT1.1 -  🟢 - distance tool
