@@ -45,3 +45,4 @@
 
 - 🚧 UAT1.1
   - UAT1.1 -  ⚙ - setup mongoDB in Docker
+  - UAT1.1 -  🟢 - set up mongoDB in docker
