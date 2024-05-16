@@ -40,3 +40,8 @@
 - 🚧 UAT1.1
   - UAT1.1 -  🟢 - created distance feature
   - UAT1.1 -  🔨 - refactored distance test
+
+### Pomodoro 🍅 5
+
+- 🚧 UAT1.1
+  - UAT1.1 -  ⚙ - setup mongoDB in Docker
