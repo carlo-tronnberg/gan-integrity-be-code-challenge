@@ -27,3 +27,4 @@
 [Thu May 16 04:23:49 CEST 2024]:    - UAT1.1 -  🔴 - added token authentication
 [Thu May 16 04:27:54 CEST 2024]:    - UAT1.1 -  🟢 - added RabbitMQ container to Docker
 [Thu May 16 04:43:07 CEST 2024]:    - UAT1.1 -  🟢 - added RabbitMQ producer
+[Thu May 16 04:44:01 CEST 2024]:    - UAT1.1 -  🔨 - refactored RabbitMQ producer

@@ -23,15 +23,6 @@ const sendMessage = async (message) => {
   await conn.close();
 
   return true;
-
-  const pusblish = async (request) => {
-    console.log('Publishing...');
-
-    const broker = await Broker.create(config);
-    broker.on('error', console.error);
-    const delivery = await publish(request.publishTo, request.message);
-    delivery.on('error', console.error);
-  };
 };
 
 module.exports = { sendMessage };
