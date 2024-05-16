@@ -14,3 +14,4 @@
 - 🚧 UAT1.1
   - UAT1.1 -  🔴 - added result controller
   - UAT1.1 -  📝 - updated README.md, _BACKLOG and _TECHDEPT
+  - UAT1.1 -  🔨 - cleaned up package.json
