@@ -66,3 +66,8 @@
 
 - 🚧 UAT1.1
   - UAT1.1 -  🟢 - configured PM2 to orchestrate Docker containers
+
+### Pomodoro 🍅 9
+
+- 🚧 UAT1.1
+  - UAT1.1 -  🟢 - added RabbitMQ consumer
