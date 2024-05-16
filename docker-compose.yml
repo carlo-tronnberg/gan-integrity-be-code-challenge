@@ -1,0 +1,30 @@
+services:
+
+    mongodb:
+        image: mongo:4.0.28
+        expose:
+          - "27017"
+        ports:
+          - "27018:27017"
+    
+    
+    load-data:
+        build:
+          context: backend/db
+          dockerfile: Dockerfile
+        depends_on:
+          - mongodb
+
+
+    backend:
+        build:
+            context: backend
+            dockerfile: Dockerfile
+        container_name: backend
+        restart: on-failure
+        ports:
+          - "8080:3000"
+        volumes:
+          - ./backend:/home/app
+        depends_on:
+          - mongodb
