@@ -20,8 +20,12 @@ npm install
 ### Setting up the app in Docker:
 
 Open your terminal, go down to the ***backend*** directory and execute
-```
+```sh
 docker compose up --build
+```
+or
+```sh
+npm run start:docker
 ```
 
 This will 
